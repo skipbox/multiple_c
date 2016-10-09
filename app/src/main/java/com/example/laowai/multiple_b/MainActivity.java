@@ -57,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
             return true;
         } else if (id == R.id.item_2) {
             Toast.makeText(this, "item_2", Toast.LENGTH_SHORT).show();
-// startActivity(new Intent(getApplicationContext(),Activty2.class));
             return true;        } else if (id == R.id.item_3) {
             Toast.makeText(this, "3333333333333333333333333333333333", Toast.LENGTH_SHORT).show();
             return true;
@@ -67,9 +66,11 @@ public class MainActivity extends AppCompatActivity {
             return true;
         } else if (id == R.id.action_house) {
             Toast.makeText(this, "action_house", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(getApplicationContext(),MainActivity.class));
             return true;
         } else if (id == R.id.action_heart) {
             Toast.makeText(this, "action_heart", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(getApplicationContext(),Main3Activity.class));
             return true;
         }
 
