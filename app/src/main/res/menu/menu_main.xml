@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.laowai.multiple_b.MainActivity">
+
+    <item
+        android:id="@+id/action_plus"
+        android:icon="@drawable/icons_plus"
+        android:title="kkk"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_house"
+        android:icon="@drawable/house_32"
+        android:title="jjj"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_heart"
+        android:icon="@drawable/heart_32"
+        android:title="kkk"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item_1"
+        android:title="Item 1" />
+    <item
+        android:id="@+id/item_2"
+        android:title="Item 2" />
+    <item
+        android:id="@+id/item_3"
+        android:title="Item 1" />
+</menu>
