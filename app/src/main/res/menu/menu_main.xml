@@ -4,8 +4,8 @@
     tools:context="com.example.laowai.multiple_b.MainActivity">
 
     <item
-        android:id="@+id/action_plus"
-        android:icon="@drawable/icons_plus"
+        android:id="@+id/action_blue_tooth"
+        android:icon="@drawable/blue_tooth_pretty_32"
         android:title="kkk"
         app:showAsAction="always"/>
     <item

@@ -10,6 +10,12 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+//important
+//<activity
+//        android:screenOrientation="portrait"
+//        android:launchMode="singleTask" <<<< ???????
+//        android:name=".blue_tooth"
+//        android:label="title_blue_tooth">
 
 public class MainActivity extends AppCompatActivity {
 
@@ -61,8 +67,9 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "3333333333333333333333333333333333", Toast.LENGTH_SHORT).show();
             return true;
 
-        } else if (id == R.id.action_plus) {
-            Toast.makeText(this, "action_plus", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.action_blue_tooth) {
+            Toast.makeText(this, "bbbbbbbbbbbbbb", Toast.LENGTH_SHORT).show();
+            //startActivity(new Intent(getApplicationContext(),blue_tooth.class));
             return true;
         } else if (id == R.id.action_house) {
             Toast.makeText(this, "action_house", Toast.LENGTH_SHORT).show();
